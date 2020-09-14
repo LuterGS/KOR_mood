@@ -1,0 +1,1 @@
+python NeuralNet.py input.txt
