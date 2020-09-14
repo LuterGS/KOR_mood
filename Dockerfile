@@ -10,4 +10,3 @@ ADD ./NeuralNet.py /home/
 ADD ./tokenizer.pickle /home/
 
 WORKDIR /home/
-# CMD ["python", "/home/NeuralNet.py", "/home/input.txt"]
