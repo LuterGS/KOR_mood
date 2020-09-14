@@ -64,6 +64,8 @@ class NeuralNet:
         test_data = pd.read_table(filename)
         with open('tokenizer.pickle', 'rb') as handle:
             self.tokenizer = pickle.load(handle)
+        self.model.load_weights('best_model.h5')
+        print("Load tokenizer and model complete, will predict data")
 
         # print(test_data)
         for i in range(len(test_data)):
