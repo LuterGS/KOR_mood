@@ -6,7 +6,7 @@ RUN pip install --upgrade pip \
 ADD ./input.txt /home/
 ADD ./evaluation.sh /home/
 ADD ./main.py /home/
-ADD ./ML1 /home/
-ADD ./ML2 /home/
+ADD ./ML1 /home/ML1
+ADD ./ML2 /home/ML2
 
 WORKDIR /home/
