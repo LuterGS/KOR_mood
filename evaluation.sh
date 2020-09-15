@@ -1,1 +1,1 @@
-python NeuralNet.py input.txt
+python main.py input.txt
