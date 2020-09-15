@@ -5,9 +5,9 @@ RUN pip install --upgrade pip \
 
 ADD ./input.txt /home/
 ADD ./evaluation.sh /home/
-ADD ./best_model.h5 /home/
-ADD ./NeuralNet.py /home/
-ADD ./tokenizer.pickle /home/
+ADD ML1/best_model.h5 /home/
+ADD ML1/NeuralNet1.py /home/
+ADD ML1/tokenizer.pickle /home/
 
 WORKDIR /home/
-# CMD ["python", "/home/NeuralNet.py", "/home/input.txt"]
+# CMD ["python", "/home/NeuralNet1.py", "/home/input.txt"]
